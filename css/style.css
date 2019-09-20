@@ -33,7 +33,8 @@
     h4,
     h5,
     h6 {
-        font-weight: 400
+        font-weight: 400;
+        margin-bottom: 20px;
     }
 
     .text-faded {
@@ -218,7 +219,7 @@
         font-size: 3.5rem;
         font-weight: 700;
         display: block;
-        max-width: 30rem
+        max-width: 30rem;
     }
 
     .portfolio-item {
@@ -241,7 +242,7 @@
     }
 
     .portfolio-item .caption .caption-content {
-        color: #fff;
+        color: rgba(255,255,255, 0);
         margin: auto 2rem 2rem
     }
 
@@ -281,9 +282,12 @@
             clip-path: inset(2rem)
         }
         .portfolio-item:hover .caption {
-            background-color: rgba(29, 128, 159, .9);
+            background-color: rgba(104, 166, 145, 0.95);
             -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem)
+        }
+        .portfolio-item:hover .caption-content {
+        		color: rgba(255, 255, 255, 0.95);
         }
     }
 
@@ -298,24 +302,24 @@
         width: 4rem;
         line-height: 4.3rem;
         font-size: 1.5rem;
-        background-color: #1d809f;
+        background-color: #FFFFFF;
         transition: background-color .15s ease-in-out;
         box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
     }
 
     footer.footer .social-link:hover {
-        background-color: #155d74;
+        background-color: #EFC7C2;
         text-decoration: none
     }
 
     a {
-        color: #1d809f
+        color: #68A691
     }
 
     a:active,
     a:focus,
     a:hover {
-        color: #155d74
+        color: #FFFFFF
     }
 
     .btn-primary {
@@ -354,12 +358,12 @@
     }
 
     .bg-primary {
-        background-color: #1d809f!important
+        background-color: #BFD3C1!important
     }
 
     .text-primary {
-        color: #1d809f!important
+        color: #BFD3C1!important
     }
 
     .text-secondary {
-        color: #ecb807!important
+        color: #694F5D!important
