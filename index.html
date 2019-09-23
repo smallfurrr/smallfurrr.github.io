@@ -43,6 +43,7 @@
                 </li>
             </ul>
         </nav>
+
         <!-- Header -->
         <header class="masthead d-flex">
             <div class="container text-center my-auto">
@@ -50,22 +51,25 @@
                 <h3 class="mb-5">
                 Web Developer
                 </h3>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                <a id="about-button" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
             </div>
-            <div class="overlay"></div>
+           <!--  <div class="overlay"></div> -->
+           <!-- i am really not sure what the overlay is for and i wanna delete it lmao -->
         </header>
+
         <!-- About -->
         <section class="content-section bg-light" id="about">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
                         <h2>About Me</h2>
-                        <p class="lead mb-5">I am a huge fucking kok</p>
+                        <p class="lead mb-5">I am a fucking kok</p>
                         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Do I even need this button</a>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Services -->
         <section class="content-section bg-primary text-white text-center" id="services">
             <div class="container">
@@ -125,19 +129,21 @@
                 <div class="row no-gutters">
                     <!-- Project 1 -->
                     <div class="col-lg-6">
-                        <a class="portfolio-item" data-toggle="modal" data-target="#exampleModalLong">
+                        <a class="portfolio-item" data-toggle="modal" data-target="#project1-modal">
                             <!-- Project 1 Modal -->
-                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal fade" id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="project1-modal-title">What The Food?!</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            Testing this kok ass modal
+                                            <p>Created using HTML, CSS and JavaScript.</p>
+                                            <img class="img-fluid" src="img/portfolio-1-inner.jpg" alt="">
+                                            <caption>Testing this kok ass modal</caption>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -149,11 +155,11 @@
                             <!-- Project 1 Card Body -->
                             <span class="caption">
                                 <span class="caption-content">
-                                    <h2>Stationary</h2>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                    <h2>What The Food?!</h2>
+                                    <p class="mb-0">Guessing game based on famous Singaporean dishes</p>
                                 </span>
                             </span>
-                            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+                            <img class="img-fluid img-main" src="img/portfolio-1.jpg" alt="">
                         </a>
                     </div>
 
@@ -162,33 +168,37 @@
                         <a class="portfolio-item" href="#">
                             <span class="caption">
                                 <span class="caption-content">
-                                    <h2>Ice Cream</h2>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                    <h2>minute.</h2>
+                                    <p class="mb-0">Daily diary app with mood analysis</p>
                                 </span>
                             </span>
-                            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+                            <img class="img-fluid img-main" src="img/portfolio-2.jpg" alt="">
                         </a>
                     </div>
+
+                    <!-- Project 3 -->
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#">
                             <span class="caption">
                                 <span class="caption-content">
-                                    <h2>Strawberries</h2>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                    <h2>Sneaks</h2>
+                                    <p class="mb-0">Sneaker collection tracking app with price-fetching API</p>
                                 </span>
                             </span>
-                            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                            <img class="img-fluid img-main" src="img/portfolio-3.jpg" alt="">
                         </a>
                     </div>
+
+                    <!-- Project 4 -->
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#">
                             <span class="caption">
                                 <span class="caption-content">
-                                    <h2>Workspace</h2>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                    <h2>#goals</h2>
+                                    <p class="mb-0">Goal tracker with countdown to goal dates</p>
                                 </span>
                             </span>
-                            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                            <img class="img-fluid img-main" src="img/portfolio-4.jpg" alt="">
                         </a>
                     </div>
                 </div>
