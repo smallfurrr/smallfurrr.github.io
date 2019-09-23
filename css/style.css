@@ -204,9 +204,9 @@ a, p {
 }
 
 /* skills */
-.service-icon {
+.skill-icon {
 	background-color: #fff;
-	color: #1d809f;
+	color: #694F5D;
 	height: 7rem;
 	width: 7rem;
 	display: block;
@@ -215,21 +215,11 @@ a, p {
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
 }
 
-.callout {
-	padding: 15rem 0;
-	background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-callout.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover
-}
+/* p.skill-text {
+	color: #694F5D;
+} */
 
-.callout h2 {
-	font-size: 3.5rem;
-	font-weight: 700;
-	display: block;
-	max-width: 30rem;
-}
-
+/* portfolio */
 .portfolio-item {
 	display: block;
 	position: relative;
@@ -363,7 +353,7 @@ a:active, a:focus, a:hover {
 
 .btn {
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
-	font-weight: 700
+	font-weight: 400
 }
 
 .bg-primary {
