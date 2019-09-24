@@ -252,7 +252,7 @@
 
                 <!-- Project 4 -->
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <a class="portfolio-item" data-toggle="modal" data-target="#project4-modal">
                         <!-- Project 4 Card Body -->
                         <span class="caption">
                                 <span class="caption-content">
@@ -263,8 +263,31 @@
                         <img class="img-fluid img-main" src="img/portfolio-4.jpg" alt="">
                     </a>
                 </div>
+
+                <!-- Project 4 Modal -->
+                <div class="modal fade" id="project4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">#GOALS</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Created using React.</p>
+                                    <p>A one-page React app utilising local storage. Helps users to keep track of their personal goals and deadlines, as well as view their total number of completed goals over time.</p>
+                                    <p>I learned a lot while building this app as it was my first time using full React + a React component library.</p>
+                                    <a href="https://thisisgoals.herokuapp.com">View Project</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
     <footer class="footer text-center bg-primary">

@@ -322,7 +322,6 @@ a {
 }
 
 a:active, a:focus, a:hover {
-	/* color: #FFFFFF */
 	color: #395B50;
 	text-decoration: none;
 }
