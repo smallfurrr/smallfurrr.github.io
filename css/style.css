@@ -313,8 +313,16 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-	background-color: #EFC7C2;
+	background-color: #694F5D;
 	text-decoration: none
+}
+
+a.social-link {
+	color:#694F5D;
+}
+
+a.social-link:hover {
+	color:#ffffff;
 }
 
 a {
