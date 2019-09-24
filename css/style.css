@@ -123,7 +123,7 @@ a, p {
 	height: 100%;
 	transition: all .4s ease 0s;
 	transform: translateX(250px);
-	background: #1d809f;
+	background: #68A691;
 	border-left: 1px solid rgba(255, 255, 255, .1)
 }
 
@@ -151,16 +151,6 @@ a, p {
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
 	text-decoration: none
-}
-
-.sidebar-nav>.sidebar-brand {
-	font-size: 1.2rem;
-	background: rgba(52, 58, 64, .1);
-	height: 80px;
-	line-height: 50px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px
 }
 
 .sidebar-nav>.sidebar-brand a {
