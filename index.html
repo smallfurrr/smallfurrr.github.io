@@ -74,7 +74,7 @@
         <div class="container">
             <div class="content-section-heading">
                 <h3 class="text-secondary mb-0">Skills</h3>
-                <h2 class="mb-5">What I Do (Well)</h2>
+                <h2 class="mb-5">What I Do</h2>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -154,9 +154,7 @@
                                 <p>Inspired by the classic game of "Guess Who", with a local twist!</p>
                                 <img class="img-fluid" src="img/portfolio-1-inner.jpg" alt="gameplay screen">
                                 <p class="font-italic text-muted">Gameplay screen</p>
-                                <a href="https://github.com/smallfurrr/what-the-food/blob/master/README.md">README on Github</a>
-                                <br>
-                                <a href="https://smallfurrr.github.io/what-the-food/game.html">Play the Game (Under Construction)</a>
+                                <a href="https://smallfurrr.github.io/what-the-food/game.html">View Project</a>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -212,7 +210,8 @@
 
                 <!-- Project 3 -->
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <a class="portfolio-item" data-toggle="modal" data-target="#project3-modal">
+                        <!-- Project 3 Card Body -->
                         <span class="caption">
                                 <span class="caption-content">
                                     <h2>Sneaks</h2>
@@ -223,9 +222,38 @@
                     </a>
                 </div>
 
+                <!-- Project 3 Modal -->
+                <div class="modal fade" id="project3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Sneaks</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Created using HTML, CSS, Ruby on Rails, PostgreSQL.</p>
+                                    <p>An app for sneakerheads to keep track of the shoes in their collection, as well as their current market value.</p>
+                                    <p>This was a team project where we took on individual roles and I was responsible for all the front-end development.</p>
+                                    <img class="img-fluid" src="img/portfolio-3a.jpg" alt="view individual show">
+                                    <p class="font-italic text-muted">Individual shoe with dynamic price fetching</p>
+                                    <a href="https://sneaks.herokuapp.com">View Project</a>
+                                    <p class="mt-3 mb-0">If you do not wish to create a new account to view features, login using the following username and password:</p>
+                                    <p class="my-0"><span class="font-weight-bold">Email: </span>elise@ga.com</p>
+                                    <p class="my-0"><span class="font-weight-bold">P/w: </span>password</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 <!-- Project 4 -->
                 <div class="col-lg-6">
                     <a class="portfolio-item" href="#">
+                        <!-- Project 4 Card Body -->
                         <span class="caption">
                                 <span class="caption-content">
                                     <h2>#goals</h2>
